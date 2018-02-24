@@ -13,4 +13,10 @@ describe RubyJenkins do
       expect(RubyJenkins.new.test1).to be_truthy
     end
   end
+
+  describe '#test2' do
+    it 'returns truthy' do
+      expect(RubyJenkins.new.test2).to be_truthy
+    end
+  end
 end

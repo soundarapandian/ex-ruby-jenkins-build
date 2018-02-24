@@ -6,4 +6,8 @@ class RubyJenkins
   def test1
     true
   end
+
+  def test2
+    true
+  end
 end
