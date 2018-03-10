@@ -11,6 +11,10 @@ class RubyJenkins
     true
   end
 
+  def test3
+    true
+  end
+
   def test_build_status
     true
   end
