@@ -44,6 +44,12 @@ describe RubyJenkins do
     end
   end
 
+  describe '#test6' do
+    it 'returns truthy' do
+      expect(RubyJenkins.new.test6).to be_truthy
+    end
+  end
+
   describe '#test_build_status' do
     it 'returns truthy' do
       expect(RubyJenkins.new.test_build_status).to be_truthy
