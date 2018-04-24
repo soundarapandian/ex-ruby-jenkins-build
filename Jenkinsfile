@@ -1,6 +1,6 @@
 #!groovy
 pipeline {
 	agent {
-	    label 'ubuntu1604'
+		label 'ubuntu1604'
 	}
 }
